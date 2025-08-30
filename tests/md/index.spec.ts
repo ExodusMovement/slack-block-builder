@@ -125,4 +125,10 @@ describe('Testing Md Helper Class:', () => {
         /Invalid timestamp/
       );
     });
+
+    test('Check Md.date() supports optional link', () => {
+          expect(Md.date(123456789, '{date_short}', 'Fallback', 'https://www.example.com')).toEqual(
+            '<!date^0123456789^{date_short}^https://www.example.com|Fallback>'
+      );
+    });
 });
