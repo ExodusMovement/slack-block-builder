@@ -16,7 +16,7 @@ export interface RichTextBroadcastBuilder extends End {
 }
 
 /**
- * @@link https://docs.slack.dev/reference/block-kit/blocks#element-types
+ * @@link https://docs.slack.dev/reference/block-kit/blocks/rich-text-block
  * @@displayName Rich Text Broadcast Mention
  */
 

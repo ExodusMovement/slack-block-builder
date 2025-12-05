@@ -30,7 +30,7 @@ export interface SectionBuilder extends Accessory,
 }
 
 /**
- * @@link https://docs.slack.dev/reference/block-kit/blocks#section
+ * @@link https://docs.slack.dev/reference/block-kit/blocks/section-block
  * @@displayName Section
  */
 

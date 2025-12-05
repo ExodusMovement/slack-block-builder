@@ -19,7 +19,7 @@ export interface RichTextListBuilder extends End,
 }
 
 /**
- * @@link https://docs.slack.dev/reference/block-kit/blocks#rich_text_list
+ * @@link https://docs.slack.dev/reference/block-kit/blocks/rich-text-block
  * @@displayName Rich Text List
  */
 

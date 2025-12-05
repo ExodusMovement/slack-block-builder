@@ -42,7 +42,7 @@ export interface VideoBuilder extends AltText,
 }
 
 /**
- * @@link https://docs.slack.dev/reference/block-kit/blocks#video
+ * @@link https://docs.slack.dev/reference/block-kit/blocks/video-block
  * @@displayName Video
  */
 

@@ -80,7 +80,7 @@ export function Attachment(params?: AttachmentParams): AttachmentBuilder {
  * @param {string} [params.confirm] Sets the text for the button that confirms the action.
  * @param {string} [params.deny] Sets the text for the button that cancels the action.
  *
- * {@link https://docs.slack.dev/reference/block-kit/composition-objects#confirm|View in Slack API Documentation}
+ * {@link https://docs.slack.dev/reference/block-kit/composition-objects/confirmation-dialog-object|View in Slack API Documentation}
  */
 
 export function ConfirmationDialog(params?: ConfirmationDialogParams): ConfirmationDialogBuilder {
@@ -94,7 +94,7 @@ export function ConfirmationDialog(params?: ConfirmationDialogParams): Confirmat
  * @param {string} [params.description] Sets a description shown next to the option, if in a radio button input.
  * @param {string} [params.url] Sets the URL to redirect the user to when this option is clicked, if in an overlow menu.
  *
- * {@link https://docs.slack.dev/reference/block-kit/composition-objects#option|View in Slack API Documentation}
+ * {@link https://docs.slack.dev/reference/block-kit/composition-objects/option-object|View in Slack API Documentation}
  */
 
 export function Option(params?: OptionParams): OptionBuilder {
@@ -105,7 +105,7 @@ export function Option(params?: OptionParams): OptionBuilder {
  * @param {Object} [params] Parameters passed to the constructor.
  * @param {string} [params.label] Sets the label shown above the group of option.
  *
- * {@link https://docs.slack.dev/reference/block-kit/composition-objects#option_group|View in Slack API Documentation}
+ * {@link https://docs.slack.dev/reference/block-kit/composition-objects/option-group-object|View in Slack API Documentation}
  */
 
 export function OptionGroup(params?: OptionGroupParams): OptionGroupBuilder {
@@ -114,7 +114,7 @@ export function OptionGroup(params?: OptionGroupParams): OptionGroupBuilder {
 
 /**
  * @description Creates a rich text section element.
- * {@link https://docs.slack.dev/reference/block-kit/blocks#rich_text_section|View in Slack API Documentation}
+ * {@link https://docs.slack.dev/reference/block-kit/blocks/rich-text-block|View in Slack API Documentation}
  */
 export function RichTextSection(params?: RichTextSectionParams): RichTextSectionBuilder {
   return new RichTextSectionBuilder(params);
@@ -126,7 +126,7 @@ export function RichTextSection(params?: RichTextSectionParams): RichTextSection
  * @param {number} [params.indent] The indentation level (0-8).
  * @param {number} [params.border] Whether to show a border (0 or 1).
  *
- * {@link https://docs.slack.dev/reference/block-kit/blocks#rich_text_list|View in Slack API Documentation}
+ * {@link https://docs.slack.dev/reference/block-kit/blocks/rich-text-block|View in Slack API Documentation}
  */
 export function RichTextList(params?: RichTextListParams): RichTextListBuilder {
   return new RichTextListBuilder(params);
@@ -136,7 +136,7 @@ export function RichTextList(params?: RichTextListParams): RichTextListBuilder {
  * @param {Object} [params] Parameters passed to the constructor.
  * @param {number} [params.border] Whether to show a border (0 or 1).
  *
- * {@link https://docs.slack.dev/reference/block-kit/blocks#rich_text_quote|View in Slack API Documentation}
+ * {@link https://docs.slack.dev/reference/block-kit/blocks/rich-text-block|View in Slack API Documentation}
  */
 export function RichTextQuote(params?: RichTextQuoteParams): RichTextQuoteBuilder {
   return new RichTextQuoteBuilder(params);
@@ -146,7 +146,7 @@ export function RichTextQuote(params?: RichTextQuoteParams): RichTextQuoteBuilde
  * @param {Object} [params] Parameters passed to the constructor.
  * @param {number} [params.border] Whether to show a border (0 or 1).
  *
- * {@link https://docs.slack.dev/reference/block-kit/blocks#rich_text_preformatted|View in Slack API Documentation}
+ * {@link https://docs.slack.dev/reference/block-kit/blocks/rich-text-block|View in Slack API Documentation}
  */
 export function RichTextPreformatted(params?: RichTextPreformattedParams): RichTextPreformattedBuilder {
   return new RichTextPreformattedBuilder(params);
@@ -156,7 +156,7 @@ export function RichTextPreformatted(params?: RichTextPreformattedParams): RichT
  * @param {Object} [params] Parameters passed to the constructor.
  * @param {string} [params.text] The text content.
  *
- * {@link https://docs.slack.dev/reference/block-kit/blocks#element-types|View in Slack API Documentation}
+ * {@link https://docs.slack.dev/reference/block-kit/blocks/rich-text-block|View in Slack API Documentation}
  */
 export function RichTextText(params?: RichTextTextParams): RichTextTextBuilder {
   return new RichTextTextBuilder(params);
@@ -168,7 +168,7 @@ export function RichTextText(params?: RichTextTextParams): RichTextTextBuilder {
  * @param {string} [params.unicode] The unicode representation.
  * @param {string} [params.url] URL for custom emoji.
  *
- * {@link https://docs.slack.dev/reference/block-kit/blocks#element-types|View in Slack API Documentation}
+ * {@link https://docs.slack.dev/reference/block-kit/blocks/rich-text-block|View in Slack API Documentation}
  */
 export function RichTextEmoji(params?: RichTextEmojiParams): RichTextEmojiBuilder {
   return new RichTextEmojiBuilder(params);
@@ -180,7 +180,7 @@ export function RichTextEmoji(params?: RichTextEmojiParams): RichTextEmojiBuilde
  * @param {string} [params.text] The link text.
  * @param {boolean} [params.unsafe] Whether the link is unsafe.
  *
- * {@link https://docs.slack.dev/reference/block-kit/blocks#element-types|View in Slack API Documentation}
+ * {@link https://docs.slack.dev/reference/block-kit/blocks/rich-text-block|View in Slack API Documentation}
  */
 export function RichTextLink(params?: RichTextLinkParams): RichTextLinkBuilder {
   return new RichTextLinkBuilder(params);
@@ -190,7 +190,7 @@ export function RichTextLink(params?: RichTextLinkParams): RichTextLinkBuilder {
  * @param {Object} [params] Parameters passed to the constructor.
  * @param {string} [params.userId] The user ID to mention.
  *
- * {@link https://docs.slack.dev/reference/block-kit/blocks#element-types|View in Slack API Documentation}
+ * {@link https://docs.slack.dev/reference/block-kit/blocks/rich-text-block|View in Slack API Documentation}
  */
 export function RichTextUser(params?: RichTextUserParams): RichTextUserBuilder {
   return new RichTextUserBuilder(params);
@@ -200,7 +200,7 @@ export function RichTextUser(params?: RichTextUserParams): RichTextUserBuilder {
  * @param {Object} [params] Parameters passed to the constructor.
  * @param {string} [params.channelId] The channel ID to mention.
  *
- * {@link https://docs.slack.dev/reference/block-kit/blocks#element-types|View in Slack API Documentation}
+ * {@link https://docs.slack.dev/reference/block-kit/blocks/rich-text-block|View in Slack API Documentation}
  */
 export function RichTextChannel(params?: RichTextChannelParams): RichTextChannelBuilder {
   return new RichTextChannelBuilder(params);
@@ -210,7 +210,7 @@ export function RichTextChannel(params?: RichTextChannelParams): RichTextChannel
  * @param {Object} [params] Parameters passed to the constructor.
  * @param {string} [params.usergroupId] The usergroup ID to mention.
  *
- * {@link https://docs.slack.dev/reference/block-kit/blocks#element-types|View in Slack API Documentation}
+ * {@link https://docs.slack.dev/reference/block-kit/blocks/rich-text-block|View in Slack API Documentation}
  */
 export function RichTextUsergroup(params?: RichTextUsergroupParams): RichTextUsergroupBuilder {
   return new RichTextUsergroupBuilder(params);
@@ -220,7 +220,7 @@ export function RichTextUsergroup(params?: RichTextUsergroupParams): RichTextUse
  * @param {Object} [params] Parameters passed to the constructor.
  * @param {string} [params.range] The broadcast range - 'here', 'channel', or 'everyone'.
  *
- * {@link https://docs.slack.dev/reference/block-kit/blocks#element-types|View in Slack API Documentation}
+ * {@link https://docs.slack.dev/reference/block-kit/blocks/rich-text-block|View in Slack API Documentation}
  */
 export function RichTextBroadcast(params?: RichTextBroadcastParams): RichTextBroadcastBuilder {
   return new RichTextBroadcastBuilder(params);
@@ -233,7 +233,7 @@ export function RichTextBroadcast(params?: RichTextBroadcastParams): RichTextBro
  * @param {string} [params.url] Optional URL to link the date.
  * @param {string} [params.fallback] Fallback text if date can't be displayed.
  *
- * {@link https://docs.slack.dev/reference/block-kit/blocks#element-types|View in Slack API Documentation}
+ * {@link https://docs.slack.dev/reference/block-kit/blocks/rich-text-block|View in Slack API Documentation}
  */
 export function RichTextDate(params?: RichTextDateParams): RichTextDateBuilder {
   return new RichTextDateBuilder(params);
@@ -243,7 +243,7 @@ export function RichTextDate(params?: RichTextDateParams): RichTextDateBuilder {
  * @param {Object} [params] Parameters passed to the constructor.
  * @param {string} [params.value] The hex color value.
  *
- * {@link https://docs.slack.dev/reference/block-kit/blocks#element-types|View in Slack API Documentation}
+ * {@link https://docs.slack.dev/reference/block-kit/blocks/rich-text-block|View in Slack API Documentation}
  */
 export function RichTextColor(params?: RichTextColorParams): RichTextColorBuilder {
   return new RichTextColorBuilder(params);
@@ -253,7 +253,7 @@ export function RichTextColor(params?: RichTextColorParams): RichTextColorBuilde
  * @param {Object} [params] Parameters passed to the constructor.
  * @param {string} [params.teamId] The team/workspace ID to mention.
  *
- * {@link https://docs.slack.dev/reference/block-kit/blocks#element-types|View in Slack API Documentation}
+ * {@link https://docs.slack.dev/reference/block-kit/blocks/rich-text-block|View in Slack API Documentation}
  */
 export function RichTextTeam(params?: RichTextTeamParams): RichTextTeamBuilder {
   return new RichTextTeamBuilder(params);

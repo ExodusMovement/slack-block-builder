@@ -32,7 +32,7 @@ export interface IconButtonBuilder extends AccessibilityLabel,
 }
 
 /**
- * @@link https://docs.slack.dev/reference/block-kit/block-elements#icon_button
+ * @@link https://docs.slack.dev/reference/block-kit/block-elements/icon-button-element
  * @@displayName Icon Button
  */
 

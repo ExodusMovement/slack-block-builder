@@ -31,7 +31,7 @@ export interface InputBuilder extends BlockId,
 }
 
 /**
- * @@link https://docs.slack.dev/reference/block-kit/blocks#input
+ * @@link https://docs.slack.dev/reference/block-kit/blocks/input-block
  * @@displayName Input
  */
 

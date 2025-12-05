@@ -35,7 +35,7 @@ export interface HomeTabBuilder extends Blocks<ViewBlockBuilder>,
 }
 
 /**
- * @@link https://docs.slack.dev/surfaces/modals
+ * @@link https://docs.slack.dev/surfaces/app-home
  * @@displayName Home Tab
  */
 

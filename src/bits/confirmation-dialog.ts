@@ -28,7 +28,7 @@ export interface ConfirmationDialogBuilder extends Confirm<string>,
 }
 
 /**
- * @@link https://docs.slack.dev/reference/block-kit/composition-objects#confirm
+ * @@link https://docs.slack.dev/reference/block-kit/composition-objects/confirmation-dialog-object
  * @@displayName Confirmation Dialog
  */
 

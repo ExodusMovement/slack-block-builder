@@ -17,7 +17,7 @@ export interface RichTextQuoteBuilder extends End,
 }
 
 /**
- * @@link https://docs.slack.dev/reference/block-kit/blocks#rich_text_quote
+ * @@link https://docs.slack.dev/reference/block-kit/blocks/rich-text-block
  * @@displayName Rich Text Quote
  */
 

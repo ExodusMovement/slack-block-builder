@@ -24,7 +24,7 @@ export interface FeedbackButtonsBuilder extends ActionId,
 }
 
 /**
- * @@link https://docs.slack.dev/reference/block-kit/block-elements#feedback_buttons
+ * @@link https://docs.slack.dev/reference/block-kit/block-elements/feedback-buttons-element
  * @@displayName Feedback Buttons
  */
 

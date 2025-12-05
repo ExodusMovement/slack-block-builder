@@ -40,7 +40,7 @@ export interface WorkflowButtonBuilder extends AccessibilityLabel,
 }
 
 /**
- * @@link https://docs.slack.dev/reference/block-kit/block-elements#workflow_button
+ * @@link https://docs.slack.dev/reference/block-kit/block-elements/workflow-button-element
  * @@displayName Workflow Button
  */
 
