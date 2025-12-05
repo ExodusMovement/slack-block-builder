@@ -1,6 +1,6 @@
 # Feedback Buttons
 
-?> **Note:** This document is a reference to the `FeedbackButtonsBuilder` object in **Block Builder**. For more information on how this carries over to the Slack API, view the [the Feedback Buttons docs](https://api.slack.com/reference/block-kit/block-elements#feedback_buttons) on Slack's doc site.
+?> **Note:** This document is a reference to the `FeedbackButtonsBuilder` object in **Block Builder**. For more information on how this carries over to the Slack API, view the [the Feedback Buttons docs](https://docs.slack.dev/reference/block-kit/block-elements#feedback_buttons) on Slack's doc site.
 
 ### Creating an Instance 
 

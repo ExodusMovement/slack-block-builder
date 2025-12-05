@@ -1,6 +1,6 @@
 # Rich Text Section
 
-?> **Note:** This document is a reference to the `RichTextSectionBuilder` object in **Block Builder**. For more information on how this carries over to the Slack API, view the [Rich Text Block docs](https://api.slack.com/reference/block-kit/blocks#rich_text_section) on Slack's doc site.
+?> **Note:** This document is a reference to the `RichTextSectionBuilder` object in **Block Builder**. For more information on how this carries over to the Slack API, view the [Rich Text Block docs](https://docs.slack.dev/reference/block-kit/blocks#rich_text_section) on Slack's doc site.
 
 ### Creating an Instance 
 

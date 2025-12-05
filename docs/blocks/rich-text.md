@@ -1,6 +1,6 @@
 # Rich Text
 
-?> **Note:** This document is a reference to the `RichTextBuilder` object in **Block Builder**. For more information on how this carries over to the Slack API, view the [the Rich Text docs](https://api.slack.com/reference/block-kit/blocks#rich_text) on Slack's doc site.
+?> **Note:** This document is a reference to the `RichTextBuilder` object in **Block Builder**. For more information on how this carries over to the Slack API, view the [the Rich Text docs](https://docs.slack.dev/reference/block-kit/blocks#rich_text) on Slack's doc site.
 
 ### Creating an Instance 
 

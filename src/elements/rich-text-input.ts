@@ -30,7 +30,7 @@ export interface RichTextInputBuilder extends ActionId,
 }
 
 /**
- * @@link https://api.slack.com/reference/block-kit/block-elements#rich_text_input
+ * @@link https://docs.slack.dev/reference/block-kit/block-elements/rich-text-input-element
  * @@displayName Rich Text Input
  */
 

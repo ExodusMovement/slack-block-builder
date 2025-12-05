@@ -16,7 +16,7 @@ export interface RichTextUserBuilder extends End {
 }
 
 /**
- * @@link https://api.slack.com/reference/block-kit/blocks#element-types
+ * @@link https://docs.slack.dev/reference/block-kit/blocks#element-types
  * @@displayName Rich Text User Mention
  */
 

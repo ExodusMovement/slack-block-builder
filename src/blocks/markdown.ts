@@ -19,7 +19,7 @@ export interface MarkdownBuilder extends BlockId,
 }
 
 /**
- * @@link https://api.slack.com/reference/block-kit/blocks#markdown
+ * @@link https://docs.slack.dev/reference/block-kit/blocks#markdown
  * @@displayName Markdown
  */
 

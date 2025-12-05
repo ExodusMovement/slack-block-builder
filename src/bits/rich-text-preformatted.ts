@@ -17,7 +17,7 @@ export interface RichTextPreformattedBuilder extends End,
 }
 
 /**
- * @@link https://api.slack.com/reference/block-kit/blocks#rich_text_preformatted
+ * @@link https://docs.slack.dev/reference/block-kit/blocks#rich_text_preformatted
  * @@displayName Rich Text Preformatted
  */
 

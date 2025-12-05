@@ -1,6 +1,6 @@
 # Workflow Button
 
-?> **Note:** This document is a reference to the `WorkflowButtonBuilder` object in **Block Builder**. For more information on how this carries over to the Slack API, view the [the Workflow Button docs](https://api.slack.com/reference/block-kit/block-elements#workflow_button) on Slack's doc site.
+?> **Note:** This document is a reference to the `WorkflowButtonBuilder` object in **Block Builder**. For more information on how this carries over to the Slack API, view the [the Workflow Button docs](https://docs.slack.dev/reference/block-kit/block-elements#workflow_button) on Slack's doc site.
 
 ### Creating an Instance 
 

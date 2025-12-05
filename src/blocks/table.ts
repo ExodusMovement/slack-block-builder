@@ -23,7 +23,7 @@ export interface TableBuilder extends BlockId,
 }
 
 /**
- * @@link https://api.slack.com/reference/block-kit/blocks#table
+ * @@link https://docs.slack.dev/reference/block-kit/blocks#table
  * @@displayName Table
  */
 

@@ -15,7 +15,7 @@ export interface RichTextSectionBuilder extends End,
 }
 
 /**
- * @@link https://api.slack.com/reference/block-kit/blocks#rich_text_section
+ * @@link https://docs.slack.dev/reference/block-kit/blocks#rich_text_section
  * @@displayName Rich Text Section
  */
 

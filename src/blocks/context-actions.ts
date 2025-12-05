@@ -17,7 +17,7 @@ export interface ContextActionsBuilder extends BlockId,
 }
 
 /**
- * @@link https://api.slack.com/reference/block-kit/blocks#context_actions
+ * @@link https://docs.slack.dev/reference/block-kit/blocks#context_actions
  * @@displayName Context Actions
  */
 

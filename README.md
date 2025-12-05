@@ -420,7 +420,7 @@ const unfurl = ({ channel, ts, url }) => client.chat.unfurl({
 .catch((error) => console.log(error));
 ```
 
-Both `OptionCollection()` and `OptionGroupCollection()` come in handy when returning an array of options or option groups for select menus with external data sources, as seen in [Slack's API docs](https://api.slack.com/reference/block-kit/block-elements#external_multi_select):
+Both `OptionCollection()` and `OptionGroupCollection()` come in handy when returning an array of options or option groups for select menus with external data sources, as seen in [Slack's API docs](https://docs.slack.dev/reference/block-kit/block-elements#external_multi_select):
 
 ```javascript
 return { options: OptionCollection( /* Pass in options */ ) };

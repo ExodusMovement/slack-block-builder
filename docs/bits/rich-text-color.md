@@ -1,6 +1,6 @@
 # Rich Text Color
 
-?> **Note:** This document is a reference to the `RichTextColorBuilder` object in **Block Builder**. For more information on how this carries over to the Slack API, view the [the Rich Text element docs](https://api.slack.com/reference/block-kit/blocks#element-types) on Slack's doc site.
+?> **Note:** This document is a reference to the `RichTextColorBuilder` object in **Block Builder**. For more information on how this carries over to the Slack API, view the [the Rich Text element docs](https://docs.slack.dev/reference/block-kit/blocks#element-types) on Slack's doc site.
 
 ### Creating an Instance 
 

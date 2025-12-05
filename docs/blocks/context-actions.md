@@ -1,6 +1,6 @@
 # Context Actions
 
-?> **Note:** This document is a reference to the `ContextActionsBuilder` object in **Block Builder**. For more information on how this carries over to the Slack API, view the [the Context Actions docs](https://api.slack.com/reference/block-kit/blocks#context_actions) on Slack's doc site.
+?> **Note:** This document is a reference to the `ContextActionsBuilder` object in **Block Builder**. For more information on how this carries over to the Slack API, view the [the Context Actions docs](https://docs.slack.dev/reference/block-kit/blocks#context_actions) on Slack's doc site.
 
 ### Creating an Instance 
 

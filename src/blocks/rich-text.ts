@@ -21,7 +21,7 @@ export interface RichTextBuilder extends BlockId,
 }
 
 /**
- * @@link https://api.slack.com/reference/block-kit/blocks#rich_text
+ * @@link https://docs.slack.dev/reference/block-kit/blocks#rich_text
  * @@displayName Rich Text
  */
 
