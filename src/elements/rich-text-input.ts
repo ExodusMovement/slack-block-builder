@@ -59,8 +59,8 @@ export class RichTextInputBuilder extends ElementBuilderBase {
         return this.getResult(SlackElementDto, {
             type: ElementType.RichTextInput,
             placeholder: getPlainTextObject(this.props.placeholder),
-            initial_value: getBuilderResult<SlackDto>(this.props.initialValue),
-            dispatch_action_config: this.props.dispatchActionConfig,
+            initialValue: getBuilderResult<SlackDto>(this.props.initialValue),
+            dispatchActionConfig: this.props.dispatchActionConfig,
         });
     }
 }
