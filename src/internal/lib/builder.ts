@@ -45,6 +45,8 @@ export abstract class Builder {
     return Object.freeze(result);
   }
 
+  /** @internal */
+
   // eslint-disable-next-line max-len
   // eslint-disable-next-line class-methods-use-this, @typescript-eslint/no-unused-vars, @typescript-eslint/explicit-module-boundary-types, @typescript-eslint/no-explicit-any
   public build(params?: ObjectLiteral): any {

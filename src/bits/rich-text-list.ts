@@ -30,7 +30,7 @@ export class RichTextListBuilder extends BitBuilderBase {
         return this.getResult(SlackDto, {
             type: RichTextElementType.List,
             elements: getBuilderResults<SlackDto>(this.props.elements),
-            style: this.props.style,
+            style: this.props.style ?? 'bullet',
             indent: this.props.indent,
             border: this.props.border,
         });
