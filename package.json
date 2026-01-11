@@ -1,18 +1,17 @@
 {
-  "name": "slack-block-builder",
-  "version": "2.8.0",
-  "description": "Maintainable code for interactive Slack messages, modals, home tabs, and workflow steps. A must-have for the Slack Block Kit framework.",
+  "name": "@exodus/slack-block-builder",
+  "version": "2.9.1",
+  "description": "Maintainable code for interactive Slack messages, modals, home tabs, and workflow steps. Exodus fork with RichText, Markdown, Table blocks support.",
   "author": {
     "name": "Ray East",
     "url": "https://github.com/raycharius"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/raycharius/slack-block-builder"
+    "url": "https://github.com/ExodusMovement/slack-block-builder"
   },
-  "homepage": "https://blockbuilder.dev",
   "bugs": {
-    "url": "https://github.com/raycharius/slack-block-builder/issues"
+    "url": "https://github.com/ExodusMovement/slack-block-builder/issues"
   },
   "files": [
     "dist/",
