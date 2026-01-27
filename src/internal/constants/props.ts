@@ -91,5 +91,6 @@ export enum Prop {
   VideoUrl = 'videoUrl',
   MaxFiles = 'maxFiles',
   Filetypes = 'filetypes',
+  Timezone = 'timezone',
 
 }

@@ -827,3 +827,20 @@ export abstract class Filetypes extends Builder {
     return this.set(filetypes.flat(), Prop.Filetypes);
   }
 }
+
+export abstract class Timezone extends Builder {
+  /**
+   * @description Sets the timezone for the time picker element. The timezone is supplied as a string identifying an IANA timezone database string, such as "America/Los_Angeles".
+   *
+   * **Slack Validation Rules and Tips:**
+   *    * Must be a valid IANA timezone string.
+   *    * If not provided, defaults to the user's timezone.
+   *
+   * {@link https://docs.slack.dev/reference/block-kit/block-elements/time-picker-element|Open Official Slack Time Picker Documentation}
+   * {@link https://www.blockbuilder.dev|Open Block Builder Documentation}
+   */
+
+  public timezone(timezone: Settable<string>): this {
+    return this.set(timezone, Prop.Timezone);
+  }
+}
