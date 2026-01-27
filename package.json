@@ -1,6 +1,6 @@
 {
   "name": "@exodus/slack-block-builder",
-  "version": "2.9.4",
+  "version": "2.10.0",
   "description": "Maintainable code for interactive Slack messages, modals, home tabs, and workflow steps. Exodus fork with RichText, Markdown, Table blocks support.",
   "author": {
     "name": "Ray East",
